@@ -7,7 +7,6 @@ const config = require("./webpack.config.js");
 const transpiler = webpack(config);
 const middleware = webpackMiddleware(transpiler, {
   publicPath: config.output.publicPath,
-  serverSideRender: false,
   watchOptions: {
     ignored: /.*/
   }

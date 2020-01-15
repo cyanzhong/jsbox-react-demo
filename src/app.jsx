@@ -11,9 +11,8 @@ class App extends React.Component {
           <img src={ReactLogo} className="React-logo" alt="logo" />
           <p>Hello, World!</p>
           <a
-            className="TappableLink"
+            className="Link"
             href="https://reactjs.org/docs/getting-started.html"
-            target="_blank"
           >
             Getting Started
           </a>
@@ -23,4 +22,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("container"));
