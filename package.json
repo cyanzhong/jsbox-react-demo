@@ -1,0 +1,19 @@
+{
+  "name": "jsbox-react-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "@babel/core": "7.x.x",
+    "@babel/preset-env": "7.x.x",
+    "@babel/preset-react": "7.x.x",
+    "babel-loader": "8.x.x",
+    "css-loader": "2.1.x",
+    "express": "4.16.x",
+    "file-loader": "^4.0.0",
+    "react": "16.x.x",
+    "react-dom": "16.x.x",
+    "style-loader": "0.x.x",
+    "url-loader": "^2.0.0",
+    "webpack": "4.x.x",
+    "webpack-dev-middleware": "3.7.x"
+  }
+}
