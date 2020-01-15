@@ -22,8 +22,8 @@ app.get("/", (req, res) => {
 });
 
 const port = 8848;
-app.listen(port, () => {
-  const url = `http://localhost:${port}`;
-  console.log(`Launching website at: ${url}`);
-  safari.open(url);
-});
+app.listen(port);
+
+const url = `http://localhost:${port}`;
+console.log(`Launching website at: ${url}`);
+safari.open(url);
